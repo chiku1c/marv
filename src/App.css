@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.main{
+  height: 798px;
+  width: 1440px;
+  background:#07111F;
+  
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+.image{
+  height: 50px;
+  width: 208px;
+  margin: 7.52% 42.92% 86.22% 42.64%;;
+}
+.card{
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(101, 124, 162, 0.3);
+  width: 368px;
+  height: 363px;
+  margin: 27.57% 37.22% 26.94% 37.22%;
+  
+}
+.grid{
+  width: 208px;
+  height: 36px;
+}
+.button{
+  background-image: linear-gradient(123.99deg, #31B1E7 0%, #268CF5 35.15%, #2F58F7 100%);
+  border-radius: 2px;
+  width: 320px;
+  height: 40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.G2{
+  color: #99ADC0;
+  font-family: MaisonNeue;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.trams{
+  color: #021D41;
+  font-family: MaisonNeue;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
 }
