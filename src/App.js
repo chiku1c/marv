@@ -6,11 +6,14 @@ import Org from './componetns/Org';
 
 
 
+
 function App() {
   return (
     <div className="main">
       <Logo/>
+      
       <Org/>
+      
 
 
     </div>
