@@ -1,21 +1,13 @@
-import { Container } from '@mui/material'
-import React, { Component } from 'react'
+import React from 'react'
 import './App.css';
 import Logo from "./componetns/Logo"
 import Org from './componetns/Org';
-
-
-
 
 function App() {
   return (
     <div className="main">
       <Logo/>
-      
-      <Org/>
-      
-
-
+      {/* <Org/> */}
     </div>
   )
 }
